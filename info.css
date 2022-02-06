@@ -1,0 +1,68 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: sans-serif;
+  line-height: 4;
+  justify-content: center;
+}
+
+* {
+  border: none;
+  justify-content: center;
+}
+
+.body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 25px;
+  border: none;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#60d4ae, #506691);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+ 
+}
+#form-subject {
+  width: 94%;
+}
+
+.inner-collumn-1 #form-name {
+}
+
+.form-container{
+  display: inline;
+}
+
+input {
+  display: inline-block;
+  padding: 15px 10px;
+  border-radius: 5px;
+  width: auto;
+}
+
+textarea {
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  font-size: 15px;
+  overflow: -moz-hidden-unscrollable;
+  resize: none;
+}
+
+#btn {
+  margin-left: auto;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0px;
+  position: relative;
+}
+.inner-collumn-4 #btn:hover {
+  opacity: 0.2;
+  color: rgb(173, 36, 66) !important;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="info.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="server.js"></script>
+  <script type="text/javascript" src="page.js"></script>
+  <link rel="stylesheet" href="info.css" />
+
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1,maximum-scale=1"
+  />
+  <body>
+    <title>information</title>
+
+    <div class="main-container">
+      <div class="main-wrapper">
+        <h1><b>Contact Me</b></h1>
+        <form class="contact-form" id=" myform" onsubmit="return false;">
+          <div class="form-container">
+            <div class="inner-collumn-1">
+            
+              <input type="text" id="form-name" placeholder="Enter Name" />
+
+             
+              <input type="text" id="form-mail" placeholder="Enter Email" />
+            </div>
+
+            <div class="inner-collumn-2">
+           
+              <input type="text" id="form-subject" placeholder="Subject" />
+            </div>
+
+            <div class="inner-collumn-3">
+              <textarea
+                type="text"
+                id="form-msg"
+                type="msg"
+                cols="20"
+                rows="13"
+                placeholder="Enter Something Please..."
+              ></textarea>
+            </div>
+
+            <div class="inner-collumn-4">
+              <input type="submit" id="btn" value="Send Me" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</head>
