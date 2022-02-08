@@ -24,16 +24,14 @@ html {
   text-align: center;
   justify-content: center;
   display: flex;
- 
+  animation: slider 2.5s  1s ease-in;
 }
+
 #form-subject {
   width: 94%;
 }
 
-.inner-collumn-1 #form-name {
-}
-
-.form-container{
+.form-container {
   display: inline;
 }
 
@@ -62,7 +60,28 @@ textarea {
   margin-top: 0px;
   position: relative;
 }
+
 .inner-collumn-4 #btn:hover {
   opacity: 0.2;
   color: rgb(173, 36, 66) !important;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(10%);
+  }
+  25% {
+    transform: translateX(20%);
+  }
+  50% {
+   transform: translateX(30%);
+  }
+
+  75% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform-origin: translateX(-10%);
+    
+  }
 }
