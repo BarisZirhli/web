@@ -24,7 +24,7 @@ html {
   text-align: center;
   justify-content: center;
   display: flex;
-  animation: slider 2.5s  1s ease-in;
+  animation: slider 2.5s  0.8s ease-in;
 }
 
 #form-subject {
@@ -74,7 +74,7 @@ textarea {
     transform: translateX(20%);
   }
   50% {
-   transform: translateX(30%);
+   transform: translateX(0%);
   }
 
   75% {
